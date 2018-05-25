@@ -1,0 +1,58 @@
+body {
+  background: #333;
+  color: #fff; }
+
+.navbar {
+  border-bottom: #CF301D 3px solid;
+  opacity: 0.8; }
+
+#home-section {
+  background: url("../img/brainstorming.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 500px; }
+  #home-section .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 500px; }
+  #home-section .home-inner {
+    padding-top: 150px; }
+  #home-section .card-form {
+    opacity: 0.8;
+    background-color: #CF301D; }
+  #home-section .fa {
+    color: #CF301D;
+    background: #fff;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 30px; }
+
+#features-section .fa, #share-section .fa {
+  color: #fff;
+  background: #333;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 30px; }
+
+#faq-section .fa {
+  color: #fff;
+  background: #333;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 30px; }
+
+#faq-head-section {
+  background-color: #CF301D; }
+
+#share-head-section {
+  background-color: #CF301D; }
+
+i.fab {
+  color: #CF301D;
+  background: #CF301D;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 30px; }
